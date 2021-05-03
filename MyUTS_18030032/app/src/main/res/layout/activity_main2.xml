@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/assassin_s_creed_iv_black_flag_17_04_2020_16_56_19">
+
+    <!--berkaitan dengan textview tampilan hasil nim-->
+    <TextView
+        android:id="@+id/h_Nim"
+        android:layout_width="195dp"
+        android:layout_height="30dp"
+        android:background="@color/teal_200"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <!--berkaitan dengan textview tampilan hasil Nama-->
+    <TextView
+        android:id="@+id/h_Nama"
+        android:layout_width="195dp"
+        android:layout_height="29dp"
+        android:background="@color/teal_200"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <!--berkaitan dengan textview tampilan hasil kelas-->
+    <TextView
+        android:id="@+id/h_Kelas"
+        android:layout_width="182dp"
+        android:layout_height="35dp"
+        android:background="@color/teal_200"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <!--berkaitan dengan textview data Ujian-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="402dp"
+        android:layout_height="43dp"
+        android:background="@color/teal_200"
+        android:text="Data Ujian"
+        android:gravity="center"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="85px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <!--berkaitan dengan edittext inputkan nama matakuliah-->
+    <EditText
+        android:id="@+id/input_MATKUL"
+        android:layout_width="339dp"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Input Nama Matakuliah"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <!--berkaitan dengan edittext inputkan berapa sks-->
+    <EditText
+        android:id="@+id/input_SKS"
+        android:layout_width="341dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Input berapa SKS"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <!--berkaitan dengan textview tanggal-->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="81dp"
+        android:layout_height="25dp"
+        android:background="@color/teal_200"
+        android:text="Tanggal"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <!--berkaitan dengan textview hasil date-->
+    <TextView
+        android:id="@+id/h_date"
+        android:layout_width="155dp"
+        android:layout_height="25dp"
+        android:background="@color/teal_200"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <Button
+        android:id="@+id/tanggal"
+        android:layout_width="141dp"
+        android:layout_height="68dp"
+        android:text="Pilih Tanggal Ujian"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <!--berkaitan dengan edittext input sifat ujian-->
+    <EditText
+        android:id="@+id/input_Sifat"
+        android:layout_width="343dp"
+        android:layout_height="43dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Input Sifat Ujian"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <!--berkaitan dengan edittext input program studi-->
+    <EditText
+        android:id="@+id/input_STUDI"
+        android:layout_width="341dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Input Program Studi"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <!--berkaitan dengan edittext input dosen pengampu-->
+    <EditText
+        android:id="@+id/input_DOSEN"
+        android:layout_width="342dp"
+        android:layout_height="43dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Input Dosen Pengampu"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="next"
+        android:text="SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="reset"
+        android:text="RESET"
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--berkaitan dengan textview NIM-->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="189dp"
+        android:layout_height="28dp"
+        android:background="@color/teal_200"
+        android:text="NIM"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <!--berkaitan dengan textview Nama mahasiswa-->
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="189dp"
+        android:layout_height="29dp"
+        android:background="@color/teal_200"
+        android:text="Nama Mahasiswa"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <!--berkaitan dengan textview kelas-->
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="190dp"
+        android:layout_height="33dp"
+        android:background="@color/teal_200"
+        android:text="Kelas"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+</androidx.constraintlayout.widget.ConstraintLayout>
